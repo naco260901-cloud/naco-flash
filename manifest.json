@@ -1,6 +1,6 @@
 {
   "name": "사냥매크로 펌웨어 업데이트",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "home_assistant_domain": "esphome",
   "funding_url": "",
   "new_install_prompt_erase": true,
