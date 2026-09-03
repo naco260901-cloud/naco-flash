@@ -1,6 +1,6 @@
 {
-  "name": "사냥매크로 펌웨어",
-  "version": "1.0.1",
+  "name": "사냥매크로 펌웨어 업데이트",
+  "version": "1.0.2",
   "home_assistant_domain": "esphome",
   "funding_url": "",
   "new_install_prompt_erase": true,
@@ -9,11 +9,11 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "DEMO_LVGL.ino.bootloader.bin",
+          "path": "bootloader.bin",
           "offset": 0
         },
         {
-          "path": "DEMO_LVGL.ino.partitions.bin",
+          "path": "partitions.bin",
           "offset": 32768
         },
         {
@@ -21,7 +21,7 @@
           "offset": 57344
         },
         {
-          "path": "DEMO_LVGL.ino.bin",
+          "path": "firmware.bin",
           "offset": 65536
         }
       ]
